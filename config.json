@@ -1,0 +1,17 @@
+{
+  "currency": {
+    "API_KEY": "VE2tnImxNf77iduA",
+    "SECRET_KEY": "J_oja%.tD05g0e%7b9y^v.:8B#pbzdtk"
+  },
+  "bot": {
+    "token": "5067579018:AAEsmbQLXBAO6-TSrL2C7u1tNzC_zuV7XIY",
+    "admins": [5032493900]
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "Hggl82658265!",
+    "name": "cryptobot"
+  }
+}
