@@ -189,15 +189,15 @@ async def plata(message: types.Message, state: FSMContext):
         reply_markup=keyboard)
 
 
-@dp.message_handler(text='Подтвердить платеж', state=Test.Mail)
-async def accept(message: types.Message, state: FSMContext):
-    data = await state.get_data()
-    await state.finish()
-    await message.answer(_(
-        "Ваша заявка в очереди, обычно перевод занимает не более 30 минут, но при загруженности блокчейна это может доходить и до 8 часов."),
-        reply_markup=await DialogCalendar().start_calendar())
-    await send_email(data)
-    await Test.Waterloo.set()
+# @dp.message_handler(text='Подтвердить платеж', state=Test.Mail)
+# async def accept(message: types.Message, state: FSMContext):
+#     data = await state.get_data()
+#     await state.finish()
+#     await message.answer(_(
+#         "Ваша заявка в очереди, обычно перевод занимает не более 30 минут, но при загруженности блокчейна это может доходить и до 8 часов."),
+#         reply_markup=await DialogCalendar().start_calendar())
+#     await send_email(data)
+#     await Test.Waterloo.set()
 
 # start_kb = ReplyKeyboardMarkup(resize_keyboard=True,)
 # start_kb.row('Navigation Calendar', 'Dialog Calendar')
