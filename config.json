@@ -1,4 +1,8 @@
+
 {
+  "wallet_valid": {
+    "API_KEY": "8e29b5ff5dd044a8805e545f3f86ff62"
+  },
   "currency": {
     "API_KEY": "VE2tnImxNf77iduA",
     "SECRET_KEY": "J_oja%.tD05g0e%7b9y^v.:8B#pbzdtk"
@@ -13,5 +17,10 @@
     "username": "postgres",
     "password": "Hggl82658265!",
     "name": "cryptobot"
+  },
+  "gmail": {
+    "mail_post": "daniilmiha2@yandex.by",
+    "mail_get": "danilamih01@gmail.com",
+    "password": "Hggl82658265!"
   }
 }

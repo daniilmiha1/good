@@ -11,10 +11,10 @@ a_5 = KeyboardButton('test')
 
 async def main_menu() -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(
-        row_width=3,
+        row_width=2,
         resize_keyboard=True,
         one_time_keyboard=False
     ).add(*[
         KeyboardButton(text=button)
-        for button in ('help', 'about', 'language', 'test')
+        for button in ('help', 'about', 'buycrypto')
     ])

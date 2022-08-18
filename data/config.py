@@ -9,6 +9,7 @@ def load_config() -> dict:
 
 CONFIG = load_config()
 
+
 BOT_TOKEN = CONFIG['bot']['token']
 admins = CONFIG['bot']['admins']
 
